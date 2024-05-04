@@ -11,13 +11,13 @@
     "href": "posts/welcome/index.html",
     "title": "Blog Migrations",
     "section": "",
-    "text": "We’ve migrated to Quarto.\nWell, actually we just started over here."
+    "text": "We’ve migrated to Quarto.\n\nWell, actually we left the old blog in the same spot and just started fresh over here.\nQuarto makes it easy for us to discuss Python….\n\n\nimport pandas as pd \n\ndata = {\n    'Name': ['Sara', 'Malik', 'Lina', 'Ahmed', 'Maya'],\n    'Age': [25, 30, 35, 40, 45],\n    'City': ['New York', 'Los Angeles', 'Chicago', 'Houston', 'Boston']\n}\n\ndf = pd.DataFrame(data)\nprint(df)\n\n    Name  Age         City\n0   Sara   25     New York\n1  Malik   30  Los Angeles\n2   Lina   35      Chicago\n3  Ahmed   40      Houston\n4   Maya   45       Boston\n\n\nAnd R…\n\nlibrary(tidyverse)\n\ndata &lt;- tibble(\n  Name = c(\"Sara\", \"Malik\", \"Lina\", \"Ahmed\", \"Maya\"),\n  Age = c(25, 30, 35, 40, 45),\n  City = c(\"New York\", \"Los Angeles\", \"Chicago\", \"Houston\", \"Boston\")\n)\n\ndata\n\n# A tibble: 5 × 3\n  Name    Age City       \n  &lt;chr&gt; &lt;dbl&gt; &lt;chr&gt;      \n1 Sara     25 New York   \n2 Malik    30 Los Angeles\n3 Lina     35 Chicago    \n4 Ahmed    40 Houston    \n5 Maya     45 Boston     \n\n\nAll in the same place!"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Blog",
     "section": "",
-    "text": "Blog Migrations\n\n\n\n\n\n\nwebsite\n\n\n\n\n\n\n\n\n\nMay 4, 2024\n\n\nAlex Chisholm\n\n\n\n\n\n\nNo matching items"
+    "text": "Blog Migrations\n\n\n\n\n\n\nWebsite\n\n\nPython\n\n\nR\n\n\n\n\n\n\n\n\n\nMay 4, 2024\n\n\nAlex Chisholm\n\n\n\n\n\n\nNo matching items"
   }
 ]

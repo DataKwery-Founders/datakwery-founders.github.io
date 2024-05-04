@@ -1,0 +1,15 @@
+{
+  "hash": "3847b2a453bc8a384b08d02c6906e8ab",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Blog Migrations\"\nauthor: \"Alex Chisholm\"\ndate: \"2024-05-04\"\ncategories: [Website, Python, R]\n---\n\n\nWe've migrated to [Quarto](https://quarto.org/).\n\n![](thumbnail.jpg)\n\nWell, actually we left the old blog in the same spot and just started fresh over here.\n\nQuarto makes it easy for us to discuss **Python**....\n\n\n::: {.cell python.reticulate='false'}\n\n```{.python .cell-code}\n\nimport pandas as pd \n\ndata = {\n    'Name': ['Sara', 'Malik', 'Lina', 'Ahmed', 'Maya'],\n    'Age': [25, 30, 35, 40, 45],\n    'City': ['New York', 'Los Angeles', 'Chicago', 'Houston', 'Boston']\n}\n\ndf = pd.DataFrame(data)\nprint(df)\n\n```\n\n\n::: {.cell-output .cell-output-stdout}\n\n```\n    Name  Age         City\n0   Sara   25     New York\n1  Malik   30  Los Angeles\n2   Lina   35      Chicago\n3  Ahmed   40      Houston\n4   Maya   45       Boston\n```\n\n\n:::\n:::\n\n\nAnd **R**...\n\n\n::: {.cell}\n\n```{.r .cell-code}\nlibrary(tidyverse)\n\ndata <- tibble(\n  Name = c(\"Sara\", \"Malik\", \"Lina\", \"Ahmed\", \"Maya\"),\n  Age = c(25, 30, 35, 40, 45),\n  City = c(\"New York\", \"Los Angeles\", \"Chicago\", \"Houston\", \"Boston\")\n)\n\ndata\n```\n\n::: {.cell-output .cell-output-stdout}\n\n```\n# A tibble: 5 × 3\n  Name    Age City       \n  <chr> <dbl> <chr>      \n1 Sara     25 New York   \n2 Malik    30 Los Angeles\n3 Lina     35 Chicago    \n4 Ahmed    40 Houston    \n5 Maya     45 Boston     \n```\n\n\n:::\n:::\n\n\n**All in the same place!**",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

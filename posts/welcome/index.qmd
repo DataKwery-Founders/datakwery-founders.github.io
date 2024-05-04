@@ -2,13 +2,46 @@
 title: "Blog Migrations"
 author: "Alex Chisholm"
 date: "2024-05-04"
-categories: [website]
+categories: [Website, Python, R]
 ---
 
-We've migrated to Quarto.
-
-Well, actually we just started over here.
+We've migrated to [Quarto](https://quarto.org/).
 
 ![](thumbnail.jpg)
 
+Well, actually we left the old blog in the same spot and just started fresh over here.
 
+Quarto makes it easy for us to discuss **Python**....
+
+```{python, python.reticulate = FALSE}
+
+import pandas as pd 
+
+data = {
+    'Name': ['Sara', 'Malik', 'Lina', 'Ahmed', 'Maya'],
+    'Age': [25, 30, 35, 40, 45],
+    'City': ['New York', 'Los Angeles', 'Chicago', 'Houston', 'Boston']
+}
+
+df = pd.DataFrame(data)
+print(df)
+
+```
+
+And **R**...
+
+```{r}
+
+library(tidyverse)
+
+data <- tibble(
+  Name = c("Sara", "Malik", "Lina", "Ahmed", "Maya"),
+  Age = c(25, 30, 35, 40, 45),
+  City = c("New York", "Los Angeles", "Chicago", "Houston", "Boston")
+)
+
+data
+
+```
+
+**All in the same place!**

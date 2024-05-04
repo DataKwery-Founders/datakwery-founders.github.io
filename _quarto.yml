@@ -2,6 +2,12 @@ project:
   type: website
   output-dir: docs
 
+jupyter: python3
+
+execute:
+  warning: false
+  message: false
+
 website:
   title: ""
   favicon: img/favicon.png
@@ -16,8 +22,8 @@ website:
       # - about.qmd
       # - icon: github
       #   href: https://github.com/
-      - icon: twitter
-        href: https://twitter.com/datakwery
+      # - icon: twitter
+      #   href: https://twitter.com/datakwery
 format:
   html:
     theme: cosmo
