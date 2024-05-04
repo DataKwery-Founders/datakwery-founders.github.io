@@ -1,0 +1,26 @@
+project:
+  type: website
+
+website:
+  title: ""
+  favicon: img/favicon.png
+  navbar:
+    background: '#213458'
+    logo: img/dk_logo.png
+    right:
+      - text: Search Free Courses
+        href: https://datakwery.com
+      # - icon: github
+      #   href: https://github.com/DataKwery-Founders/dk-blog
+      # - about.qmd
+      # - icon: github
+      #   href: https://github.com/
+      - icon: twitter
+        href: https://twitter.com/datakwery
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+
+
+

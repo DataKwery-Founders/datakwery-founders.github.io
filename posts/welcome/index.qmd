@@ -1,0 +1,14 @@
+---
+title: "Blog Migrations"
+author: "Alex Chisholm"
+date: "2024-05-04"
+categories: [website]
+---
+
+We've migrated to Quarto.
+
+Well, actually we just started over here.
+
+![](thumbnail.jpg)
+
+
