@@ -17,7 +17,7 @@ website:
     background: '#213458'
     logo: img/dk_logo.png
     right:
-      - text: Search Free Courses
+      - text: Find Free Courses
         href: https://datakwery.com
       # - icon: github
       #   href: https://github.com/DataKwery-Founders/dk-blog
@@ -26,6 +26,10 @@ website:
       #   href: https://github.com/
       # - icon: twitter
       #   href: https://twitter.com/datakwery
+  page-footer: 
+    center: "Copyright 2024, DataKwery" 
+    border: true
+    background: '#213458'
 format:
   html:
     theme: cosmo

@@ -1,9 +1,9 @@
 /* css styles */
 
 .navbar-logo {
-    min-height: 50px;
+    min-height: 40px;
 }
 .menu-text {
     border: 1px solid white;
-    padding: 5px;
+    padding: 10px;
 }
